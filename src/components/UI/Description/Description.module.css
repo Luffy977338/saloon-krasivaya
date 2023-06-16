@@ -1,0 +1,46 @@
+.description {
+   margin-top: 100px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   font-size: 28px;
+   color: #ffffff;
+   text-align: center;
+   line-height: 1.5;
+}
+
+.description span {
+   color: #C61A1A;
+   font-size: 42px;
+}
+
+.description a {
+   color: #ffffff;
+   -webkit-transition: 0.3s;
+   transition: 0.3s;
+}
+
+.description a:hover {
+   color: #ff0000;
+   text-shadow: 0 0 8px #ff0000;
+}
+
+.description button {
+   background: none;
+   border: none;
+   font-size: 28px;
+   color: #ffffff;
+   text-decoration: underline;
+   -webkit-transition: 0.3s;
+   transition: 0.3s;
+   cursor: pointer;
+}
+
+.description button:hover {
+   color: #ff0000;
+   text-shadow: 0 0 8px #ff0000;
+}
